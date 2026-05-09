@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solna Haus — Digital Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Solna<span>Haus</span></a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav-cta">Get Started</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="mobileMenu">
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#process" class="mobile-link">Process</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#contact" class="mobile-link mobile-cta">Get Started</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">Digital Strategy Agency</div>
+      <h1 class="hero-heading">
+        Your entire<br />
+        digital presence.<br />
+        <span class="accent">Owned.</span>
+      </h1>
+      <p class="hero-sub">
+        Solna Haus builds and manages your complete digital footprint — from social
+        strategy to inbox, from your website to your workspace. One agency, every channel.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Get your free audit</a>
+        <a href="#services" class="btn-ghost">See what we do</a>
+      </div>
+      <div class="hero-proof">
+        <div class="proof-item"><strong>120+</strong><span>Clients served</span></div>
+        <div class="proof-divider"></div>
+        <div class="proof-item"><strong>4</strong><span>Core pillars</span></div>
+        <div class="proof-divider"></div>
+        <div class="proof-item"><strong>100%</strong><span>Coverage</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>scroll</span>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <div class="section-label">What We Do</div>
+      <h2 class="section-heading">Four pillars.<br />One complete strategy.</h2>
+      <p class="section-sub">
+        Most agencies do one thing. We handle everything — built as a system,
+        not a stack of disconnected services.
+      </p>
+      <div class="services-grid">
+
+        <div class="service-card" data-index="01">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="24" r="5" stroke="currentColor" stroke-width="2"/>
+              <circle cx="36" cy="12" r="5" stroke="currentColor" stroke-width="2"/>
+              <circle cx="36" cy="36" r="5" stroke="currentColor" stroke-width="2"/>
+              <line x1="17" y1="21" x2="31" y2="15" stroke="currentColor" stroke-width="2"/>
+              <line x1="17" y1="27" x2="31" y2="33" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <div class="service-number">01</div>
+          <h3>Social Media Strategy</h3>
+          <p>Platform-native content strategies tailored to where your customers actually are. We plan, create, schedule, and report — no guesswork.</p>
+          <ul class="service-list">
+            <li>Platform audits & competitor analysis</li>
+            <li>Content calendar & creative direction</li>
+            <li>Community management</li>
+            <li>Monthly performance reporting</li>
+          </ul>
+          <a href="#contact" class="service-link">Learn more <span>→</span></a>
+        </div>
+
+        <div class="service-card" data-index="02">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="12" width="36" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+              <path d="M6 18l18 12 18-12" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <div class="service-number">02</div>
+          <h3>Email Marketing</h3>
+          <p>Your email list is your most valuable owned channel. We build it, segment it, and turn it into consistent, measurable revenue.</p>
+          <ul class="service-list">
+            <li>List building & segmentation</li>
+            <li>Automation sequences & flows</li>
+            <li>Campaign design & copywriting</li>
+            <li>Deliverability & A/B testing</li>
+          </ul>
+          <a href="#contact" class="service-link">Learn more <span>→</span></a>
+        </div>
+
+        <div class="service-card" data-index="03">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="8" width="40" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+              <line x1="14" y1="40" x2="34" y2="40" stroke="currentColor" stroke-width="2"/>
+              <line x1="24" y1="36" x2="24" y2="40" stroke="currentColor" stroke-width="2"/>
+              <line x1="4" y1="30" x2="44" y2="30" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <div class="service-number">03</div>
+          <h3>Website Builds & Admin</h3>
+          <p>Fast, beautiful websites designed to convert — then actively maintained so you never have to think about it again.</p>
+          <ul class="service-list">
+            <li>Custom design & development</li>
+            <li>SEO foundations & performance</li>
+            <li>Hosting setup & domain management</li>
+            <li>Ongoing updates & maintenance</li>
+          </ul>
+          <a href="#contact" class="service-link">Learn more <span>→</span></a>
+        </div>
+
+        <div class="service-card" data-index="04">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 14V8M24 40v-6M14 24H8M40 24h-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M17 17l-4-4M35 17l4-4M17 31l-4 4M35 31l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="service-number">04</div>
+          <h3>Google Workspace</h3>
+          <p>Professional email, organised storage, and seamless team collaboration — properly set up and managed from day one.</p>
+          <ul class="service-list">
+            <li>Workspace setup & migration</li>
+            <li>User & permissions management</li>
+            <li>Drive structure & organisation</li>
+            <li>Ongoing admin support</li>
+          </ul>
+          <a href="#contact" class="service-link">Learn more <span>→</span></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process">
+    <div class="container">
+      <div class="section-label">How It Works</div>
+      <h2 class="section-heading">A system, not a service.</h2>
+      <p class="section-sub">
+        Every client goes through the same four-phase framework. No improvising,
+        no gaps — just a proven path from scattered to strategic.
+      </p>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-number">01</div>
+          <div class="step-connector"></div>
+          <div class="step-body">
+            <h3>Audit</h3>
+            <p>We map your entire digital footprint — what exists, what's missing, what's underperforming. You get a clear picture before we touch anything.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-number">02</div>
+          <div class="step-connector"></div>
+          <div class="step-body">
+            <h3>Strategy</h3>
+            <p>A custom roadmap across all four pillars. Prioritised, realistic, and built around your goals — not a template we reuse for everyone.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-number">03</div>
+          <div class="step-connector"></div>
+          <div class="step-body">
+            <h3>Execute</h3>
+            <p>We build, launch, and set everything live. Websites go up, automations go on, profiles get transformed. You approve everything before it ships.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="step-number">04</div>
+          <div class="step-body">
+            <h3>Manage</h3>
+            <p>Ongoing retainer support — monthly reporting, content, updates, and admin. Your digital presence stays sharp without you lifting a finger.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number" data-target="120">0</div>
+          <div class="stat-label">Clients across 12 industries</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="98">0</div>
+          <div class="stat-label">Client retention rate (%)</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="4">0</div>
+          <div class="stat-label">Digital pillars covered</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="3">0</div>
+          <div class="stat-label">Average weeks to first results</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container about-inner">
+      <div class="about-text">
+        <div class="section-label">About Solna Haus</div>
+        <h2 class="section-heading">Built for businesses who are tired of patching things together.</h2>
+        <p>
+          Most businesses end up with a social media freelancer here, a web developer there,
+          an email tool they barely use, and a Google Workspace nobody set up properly.
+          It's expensive, inconsistent, and exhausting to manage.
+        </p>
+        <p>
+          Solna Haus was built to fix that. We take ownership of your full digital presence
+          and operate it as one connected system — so everything reinforces everything else,
+          and you have one team accountable for all of it.
+        </p>
+        <a href="#contact" class="btn-primary">Work with us</a>
+      </div>
+      <div class="about-visual">
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 3l2.5 7.5H27l-6.5 4.5 2.5 7.5L16 18l-7 4.5 2.5-7.5L5 10.5h8.5L16 3z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <strong>Strategy-first</strong>
+          <p>Every action connects back to your business goals.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M11 16l3.5 3.5L21 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <strong>Full ownership</strong>
+          <p>We manage everything — you approve and grow.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 24l8-8 4 4 8-10 8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <strong>Transparent reporting</strong>
+          <p>Monthly reports, plain English, real numbers.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="4" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="18" y="4" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="4" y="18" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <rect x="18" y="18" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <strong>Connected system</strong>
+          <p>All four pillars work together — not in silos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-bg">
+      <div class="glow glow-3"></div>
+    </div>
+    <div class="container contact-inner">
+      <div class="section-label">Get Started</div>
+      <h2 class="section-heading">Let's build your<br /><span class="accent">digital presence.</span></h2>
+      <p class="section-sub">
+        Start with a free audit. We'll map where you are, where the gaps are,
+        and what the path forward looks like — no commitment required.
+      </p>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Alex Johnson" required />
+          </div>
+          <div class="form-group">
+            <label for="business">Business name</label>
+            <input type="text" id="business" name="business" placeholder="Acme Co." required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="alex@acmeco.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="+1 555 000 0000" />
+          </div>
+        </div>
+        <div class="form-group full">
+          <label>Which services are you interested in?</label>
+          <div class="checkbox-group">
+            <label class="checkbox-label"><input type="checkbox" name="services" value="social" /><span>Social Media</span></label>
+            <label class="checkbox-label"><input type="checkbox" name="services" value="email" /><span>Email Marketing</span></label>
+            <label class="checkbox-label"><input type="checkbox" name="services" value="website" /><span>Website</span></label>
+            <label class="checkbox-label"><input type="checkbox" name="services" value="workspace" /><span>Google Workspace</span></label>
+          </div>
+        </div>
+        <div class="form-group full">
+          <label for="message">Anything else we should know?</label>
+          <textarea id="message" name="message" placeholder="Tell us a bit about your business and what you're trying to achieve..." rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-submit">Send my request <span class="btn-arrow">→</span></button>
+        <p class="form-note">We'll be in touch within one business day.</p>
+      </form>
+      <div class="form-success" id="formSuccess" hidden>
+        <div class="success-icon">✓</div>
+        <h3>Got it — we'll be in touch.</h3>
+        <p>Expect to hear from the Solna Haus team within one business day.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo">Solna<span>Haus</span></a>
+        <p>Your entire digital presence. Owned.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <strong>Services</strong>
+          <a href="#services">Social Media</a>
+          <a href="#services">Email Marketing</a>
+          <a href="#services">Website Builds</a>
+          <a href="#services">Google Workspace</a>
+        </div>
+        <div class="footer-col">
+          <strong>Agency</strong>
+          <a href="#about">About</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2026 Solna Haus. All rights reserved.</span>
+        <span>Built with intent.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
